@@ -259,8 +259,8 @@ noAnswerMethod = () => {
     xPosition = Math.floor(Math.random() * container.clientWidth)
     yPosition = Math.floor(Math.random() * container.clientHeight)
 
-    no.style.top = ${yPosition}px
-    no.style.left = ${xPosition}px
+    no.style.top = `${yPosition}px`
+    no.style.left = `${xPosition}px`
 
 }
 
@@ -268,7 +268,7 @@ no.addEventListener('click', noAnswerMethod)
 yes.addEventListener('click', yesAnswerMethod)
 
 document.getElementById("fix").addEventListener("click", function(){
-    window.location= ""momcard.png"";
+    window.open("momcard.png", "_blank");
 }, false);
     </script>
     
